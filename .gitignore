@@ -1,0 +1,25 @@
+﻿# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Base de datos local
+db.sqlite3
+*.sqlite3
+
+# Variables de entorno (secretos)
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
